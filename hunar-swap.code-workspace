@@ -1,0 +1,23 @@
+{
+  "folders": [
+    { "name": "Backend", "path": "./backend" },
+    { "name": "Frontend", "path": "./frontend" },
+    { "name": "Database", "path": "./database" }
+  ],
+  "settings": {
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "sqltools.connections": [
+      {
+        "ssh": "Disabled",
+        "previewLimit": 50,
+        "server": "localhost",
+        "port": 5432,
+        "driver": "PostgreSQL",
+        "name": "Hunar Swap",
+        "database": "hunarswap",
+        "username": "postgres"
+      }
+    ],
+    "liveServer.settings.multiRootWorkspaceName": "Frontend"
+  }
+}
